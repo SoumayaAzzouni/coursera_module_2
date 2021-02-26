@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment solution for module 2</title>
+<style>
+
+  h1{
+ 
+  text-align: center;
+}
+    .classe1 {
+      width: 120px;
+      text-align: center;
+      padding: 4px;
+      border:  1px solid;
+      margin-left: auto;
+      background-color: pink;
+      font-weight: bold;
+    }
+
+    .classe2 {
+      width: 120px;
+      text-align: center;
+      padding: 4px;
+      border:  1px solid;
+      margin-left: auto;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+    }
+    .classe3 {
+      width: 120px;
+      text-align: center;
+      padding: 4px;
+      border:  1px solid;
+      margin-left: auto;
+      background-color: beige;
+      font-weight: bold;
+
+    }
+
+    .card{
+      border: 2px solid;
+      background: darkgray;
+      margin-left: 10px;
+
+    }
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    border: 1px solid white;
+  }
+  .col-lg-1 {
+    width: 33%;
+  }
+  .col-lg-2 {
+    width: 33%;
+  }
+  .col-lg-3 {
+    width: 33%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3{
+    float: left;
+    border: 5px solid white;
+  }
+  .col-md-1 {
+    width: 47%;
+  }
+  .col-md-2 {
+    width: 47%;
+  }
+  .col-md-3 {
+    width: 95%;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .col-ms-1, .col-ms-2, .col-ms-3 {
+    float: left;
+    border: 10px solid white;
+  }
+  .col-ms-1 {
+    width: 95%;
+  }
+  .col-ms-2 {
+    width: 95%;
+  }
+  .col-ms-3 {
+    width: 95%;
+  }
+  
+}
+
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Our Menu</h1>
+    <div class="row">
+      <div class="col-lg-1 col-md-1 col-ms-1">
+        <div class="card">
+          <div class="classe1">Chicken</div>
+          <p class="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, blanditiis cumque architecto
+            velit in impedit eos error tempore tenetur eveniet excepturi quae laudantium maiores corrupti nisi dolorum,
+            vel, fugiat repudiandae!</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-ms-2">
+        <div class="card">
+          <div class="classe2">Beef</div>
+          <p class="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, blanditiis cumque architecto
+            velit in impedit eos error tempore tenetur eveniet excepturi quae laudantium maiores corrupti nisi dolorum,
+            vel, fugiat repudiandae!</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-ms-3">
+        <div class="card ">
+          <div class="classe3">Shushi</div>
+          <p class="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, blanditiis cumque architecto
+            velit in impedit eos error tempore tenetur eveniet excepturi quae laudantium maiores corrupti nisi dolorum,
+            vel, fugiat repudiandae!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </body>
+</html>
